@@ -22,5 +22,11 @@ The mindmap for **Windows**. [Direct link](https://github.com/eMVee-NL/MindMap/b
 -----
 ## Web Penetration Testing Mindmap
 I've created this mindmap for web penetration testing. I started with this mindmap during the eWPT course and I've updated it with some other techniques.
-This is something that should be updated regulary in the near future. The mindmap is created with **Freemind** and can be found here: https://github.com/eMVee-NL/MindMap/blob/main/Web%20Penetration%20Testing%20Mindmap/Web-Penetration-Testing-Mindmap.mm
-![Mindmap web penetration testing](image/Web-Penetration-Testing-Mindmap.png)
+This is something that should be updated regulary in the near future.  The mindmap was origanally created in Freemind. But since I started moving all my notes to Obsidian and I allready importerd other mindmaps in my Obsidian notes, it was time to port this one as well. The mindmap is now available for Obsidian. Now I have to update the mindmap with some extra techniques and descriptions.
+
+The mindmap for Obsidian can be found [here](https://github.com/eMVee-NL/MindMap/blob/main/Web%20Penetration%20Testing%20Mindmap/Mindmap%20Web%20Application%20Pentesting.canvas)
+
+The mindmap for Freemind can be found [here](https://github.com/eMVee-NL/MindMap/blob/main/Web%20Penetration%20Testing%20Mindmap/Web-Penetration-Testing-Mindmap.mm)
+
+
+![Mindmap web penetration testing](image/Mindmap Web Application Pentesting.png)
