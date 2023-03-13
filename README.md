@@ -28,5 +28,4 @@ The mindmap for Obsidian can be found [here](https://github.com/eMVee-NL/MindMap
 
 The mindmap for Freemind can be found [here](https://github.com/eMVee-NL/MindMap/blob/main/Web%20Penetration%20Testing%20Mindmap/Web-Penetration-Testing-Mindmap.mm)
 
-
-![Mindmap web penetration testing](image/Mindmap Web Application Pentesting.png)
+![Mindmap web penetration testing](image/Mindmap%20Web%20Application%20Pentesting.png)
