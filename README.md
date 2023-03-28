@@ -29,3 +29,10 @@ The mindmap for Obsidian can be found [here](https://github.com/eMVee-NL/MindMap
 The mindmap for Freemind can be found [here](https://github.com/eMVee-NL/MindMap/blob/main/Web%20Penetration%20Testing%20Mindmap/Web-Penetration-Testing-Mindmap.mm)
 
 ![Mindmap web penetration testing](image/Mindmap%20Web%20Application%20Pentesting.png)
+
+-----
+## SSTI Mindmap
+A while ago I noticed a mindmap to detect which technology is used if you are looking for an SSTI vulnerability. As usual I love those mindmaps, but in this one I could not copy the code for injection and paste it on the target. Therfore I created a variant on this mindmap and added it to my notes in Obsidian. If you would like to add it to your notes in Obsidian you can download the mindmap from [here](https://github.com/eMVee-NL/MindMap/blob/main/SSTI/SSTI%20Identification%20technology.canvas).
+
+The mindmap looks like this:
+![Mindmap SSTI](https://github.com/eMVee-NL/MindMap/blob/main/image/SSTI%20Identification%20technology.png)
