@@ -47,3 +47,8 @@ The mindmap is created within Obsedian, so you could import the file within Obse
 The mindmap fo transfering file from the attacker to the victim looks like this:
 ![Mindmap File transfer from attacker to victim](https://github.com/eMVee-NL/MindMap/raw/main/image/Mindmap%20transfer%20files%20to%20VICTIM.png)
 
+#### Mindmap transfer files from victim to attacker
+As mentioned earlier, there are many ways to transfer files from one machine to another. This mindmap is to show some possibilities from the victim machine to the attacker machine. Check which technologies are used on the victim. Use those technologies firstbefore starting any other technique.
+
+The mindmap is created within Obsedian, so you could import the file within Obsedian without any problem. The file could be downloaded from [here](https://raw.githubusercontent.com/eMVee-NL/MindMap/main/File-Transfer/Mindmap%20transfer%20files%20to%20ATTACKER.canvas)
+![Mindmap File transfer from victom to attacker](https://github.com/eMVee-NL/MindMap/blob/main/image/Mindmap%20transfer%20files%20to%20ATTACKER.png)
