@@ -1,5 +1,14 @@
 # MindMap
-Some mindmaps
+This is a collection of some of mine mindmaps in Obsidian. No I did not design all mindmaps myself, some are from other awesome people. I ported some of them to an Obsidian variant since I use Obsidian for my cheatsheets. The mindmaps which I have in Obsidian are listed below:
+
+* Actice Directory
+* Privilege Escalation
+* Webapplication penetration testing
+* SSTI
+* File transfer techniques
+* Pivot / Tunnels
+
+
 -----
 ## AD penetration testing Mindmap
 The famous AD penetration testing mind map of Orange Cyberdefense made by mayfly (@M4yFly), viking (@Vikingfr) and Sat0rryu (@Sant0rryu) is high in my favorites. I regularly use the mind map to view a certain scenario and command. Unfortunately it is not possible to copy the text from the SVG file. Sometimes to great frustration that I have to retype it and make a typing error. For several months now I have been restructuring my notes from Joplin to Obsidian. While working with Obsidian I found out that you can make a mind map (canvas) and then copy commands. A good time to convert the AD mind map to something I can copy and paste from. Of course I also want to share this with you. If there are things in it that are not correct, or something is missing. Then let me know and I can update it.
