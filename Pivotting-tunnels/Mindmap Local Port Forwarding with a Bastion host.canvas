@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"group","id":"47ae0352146f073e","x":-620,"y":-840,"width":1520,"height":1080,"label":"Local Port Forwarding with a Bastion host"},
+		{"type":"group","id":"43c43f4097788283","x":100,"y":-300,"width":700,"height":400,"color":"5","label":"Target network"},
+		{"type":"group","id":"5ea4fb1c972b2d2d","x":-560,"y":-300,"width":300,"height":280,"color":"4","label":"Client"},
+		{"type":"group","id":"ed8b143def287a8b","x":380,"y":-240,"width":300,"height":280,"color":"2","label":"Server"},
+		{"type":"group","id":"c9b93b2af84bfe13","x":100,"y":-249,"width":170,"height":298,"color":"6","label":"Bastion"},
+		{"type":"text","text":"```bash\ncurl localhost:8080\n```","id":"b661b68e7d0a13a2","x":-594,"y":120,"width":333,"height":60},
+		{"type":"text","text":"Long version\n```bash\nssh -L localhost:8080:SERVER:80 username@BASTION\n```","id":"97f1f162c8118cd7","x":-536,"y":-480,"width":1016,"height":110},
+		{"type":"text","text":"Short version\n```bash\nssh -L 8080:SERVER:80 username@BASTION\n```","id":"ee99b384ab92ebc5","x":-536,"y":-640,"width":1016,"height":110},
+		{"type":"text","text":"Example command:\n```bash\nssh -L [local_addr:]local_port:remote_addr:remote_port [user@]sshd_addr\n```","id":"06bbc43fbe3f492b","x":-536,"y":-800,"width":1016,"height":120},
+		{"type":"text","text":"SSH Server","id":"a5831f45d57fad10","x":101,"y":-221,"width":139,"height":235},
+		{"type":"text","text":"SSH Tunnel","id":"7b503aa4f614bd8b","x":-180,"y":-129,"width":200,"height":51,"color":"#a99898"},
+		{"type":"text","text":"SSH client","id":"7025a06ee35895cd","x":-427,"y":-129,"width":139,"height":51},
+		{"type":"text","text":"Web server\n\nListens on `localhost:80`","id":"8c5a1431316a9a06","x":420,"y":-162,"width":200,"height":118,"color":"1"}
+	],
+	"edges":[
+		{"id":"a4cf252ca6ecba18","fromNode":"7025a06ee35895cd","fromSide":"right","toNode":"7b503aa4f614bd8b","toSide":"left"},
+		{"id":"d52ed6f6e3dc5604","fromNode":"7b503aa4f614bd8b","fromSide":"right","toNode":"a5831f45d57fad10","toSide":"left"},
+		{"id":"97d20f11c04f0bb1","fromNode":"a5831f45d57fad10","fromSide":"right","toNode":"8c5a1431316a9a06","toSide":"left"},
+		{"id":"eda6bdfd490355e7","fromNode":"b661b68e7d0a13a2","fromSide":"top","toNode":"7025a06ee35895cd","toSide":"bottom"}
+	]
+}

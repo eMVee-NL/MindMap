@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"group","id":"47ae0352146f073e","x":-620,"y":-840,"width":1240,"height":1080,"label":"Remote Port Forwarding"},
+		{"type":"group","id":"5ea4fb1c972b2d2d","x":-560,"y":-320,"width":532,"height":280,"color":"4","label":"Client network"},
+		{"type":"group","id":"43c43f4097788283","x":240,"y":-320,"width":240,"height":280,"color":"5","label":"Target"},
+		{"type":"group","id":"48e2bef7f635b622","x":-540,"y":-280,"width":236,"height":220,"color":"2","label":"Server"},
+		{"type":"group","id":"eb64d20524f07ab1","x":-264,"y":-280,"width":204,"height":220,"color":"6","label":"Client"},
+		{"type":"text","text":"Example\n```bash\nssh -R 0.0.0.0:8080:server:80 username@target\n```","id":"ee99b384ab92ebc5","x":-536,"y":-640,"width":1016,"height":110},
+		{"type":"text","text":"Example command:\n```bash\nssh -R [remote_addr:]remote_port:local_addr:local_port [user@]gateway_addr\n```","id":"06bbc43fbe3f492b","x":-536,"y":-820,"width":1016,"height":118},
+		{"type":"text","text":"```bash\necho \"GatewayPorts yes\" >> sshd_config\n```","id":"908a4b72acc463cd","x":112,"y":140,"width":460,"height":60},
+		{"type":"text","text":"```bash\ncurl TARGET:8080\n```","id":"b661b68e7d0a13a2","x":239,"y":40,"width":333,"height":60},
+		{"type":"text","text":"Web server\n\nListens on `localhost:80`","id":"8c5a1431316a9a06","x":-520,"y":-209,"width":200,"height":118,"color":"1"},
+		{"type":"text","text":"SSH client","id":"7025a06ee35895cd","x":-240,"y":-175,"width":139,"height":51},
+		{"type":"text","text":"SSH Tunnel","id":"7b503aa4f614bd8b","x":0,"y":-174,"width":200,"height":51,"color":"#a99898"},
+		{"type":"text","text":"SSH Server","id":"a5831f45d57fad10","x":273,"y":-192,"width":139,"height":85}
+	],
+	"edges":[
+		{"id":"97d20f11c04f0bb1","fromNode":"7025a06ee35895cd","fromSide":"left","toNode":"8c5a1431316a9a06","toSide":"right"},
+		{"id":"eda6bdfd490355e7","fromNode":"b661b68e7d0a13a2","fromSide":"top","toNode":"a5831f45d57fad10","toSide":"bottom"},
+		{"id":"da343634b709dadd","fromNode":"a5831f45d57fad10","fromSide":"left","toNode":"7b503aa4f614bd8b","toSide":"right"},
+		{"id":"30269313751c48fc","fromNode":"7b503aa4f614bd8b","fromSide":"left","toNode":"7025a06ee35895cd","toSide":"right"}
+	]
+}
