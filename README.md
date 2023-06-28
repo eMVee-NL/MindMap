@@ -18,6 +18,19 @@ The famous AD penetration testing mind map of Orange Cyberdefense made by mayfly
 ![AD penetration testing mindmap - inspired by Orange Cyberdefense](image/Mindmap%20AD1.png)
 
 -----
+## AD Enumeration with PowerView
+Within the AD directory I put the Obsidian minmap for enumerating AD with PowerView.
+The mindmap could be used to copy and paste commands to gather information about everything in AD.
+
+-----
+## Pivot
+There are several ways to pivot into a network. The mindmaps are available in the pivot directory.
+One of my favourite pivot tools is [Ligolo-ng](https://github.com/nicocha30/ligolo-ng). There is an awesome video about this on youtube (https://youtu.be/DM1B8S80EvQ) 
+Based on this video I created a mindmap with all commands and where it should be executed.
+
+![Pivot with Ligolo-NG](image/Ligolo-ng%20-%20Windows%20pivot.png)
+
+-----
 ## Privilege escalation mindmap
 Now that I'm updating my cheat sheet, I like to also make mind maps that I put at the beginning of my category. I use this as a reference. In this case I have divided the Privilege escalation mindmaps between Linux and Windows. I am still developing this one.
 
