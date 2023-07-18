@@ -60,9 +60,14 @@
 		{"type":"text","text":"ntds.dit","id":"de1ea014046600d9","x":2094,"y":1349,"width":250,"height":60},
 		{"type":"text","text":"Churrasco","id":"b7884c09d4a7873e","x":1998,"y":1147,"width":250,"height":60},
 		{"type":"text","text":"Services[20 EoP - Leveraging Windows Services](20%20EoP%20-%20Leveraging%20Windows%20Services.md)","id":"2315e805c1e53d91","x":346,"y":1479,"width":250,"height":60},
-		{"type":"text","text":"SeDebug","id":"0c49f358bc120769","x":1463,"y":1459,"width":250,"height":60},
-		{"type":"text","text":"SeLoadDriver","id":"38f9abcc878048ab","x":1463,"y":1539,"width":250,"height":60},
-		{"type":"text","text":"```cmd\nwhoami /priv\n```","id":"d786877728553b71","x":1020,"y":1147,"width":250,"height":60}
+		{"type":"text","text":"```cmd\nwhoami /priv\n```","id":"d786877728553b71","x":1020,"y":1147,"width":250,"height":60},
+		{"id":"06de0f837d66e239","x":2080,"y":1464,"width":420,"height":256,"type":"text","text":"1. Launch PowerShell/ISE with the SeRestore privilege present.  \n2. Enable the privilege with [Enable-SeRestorePrivilege](https://github.com/gtworek/PSBits/blob/master/Misc/EnableSeRestorePrivilege.ps1)).  \n3. Rename utilman.exe to utilman.old  \n4. Rename cmd.exe to utilman.exe  \n5. Lock the console and press Win+U"},
+		{"type":"text","text":"SeDebug","id":"0c49f358bc120769","x":1461,"y":1876,"width":250,"height":60},
+		{"type":"text","text":"SeLoadDriver","id":"38f9abcc878048ab","x":1461,"y":1956,"width":250,"height":60},
+		{"id":"483acb34bc9e1af8","x":1783,"y":1820,"width":250,"height":60,"type":"text","text":"non GUI"},
+		{"id":"293b44daa49ad5bd","x":2078,"y":1820,"width":403,"height":60,"type":"text","text":"https://github.com/xct/SeRestoreAbuse"},
+		{"id":"3868cd248078fdc9","x":1783,"y":1562,"width":250,"height":60,"type":"text","text":"GUI"},
+		{"id":"06311376f8cf1feb","x":1461,"y":1680,"width":250,"height":60,"type":"text","text":"SeRestorePrivilege"}
 	],
 	"edges":[
 		{"id":"6b14fbe0816370ea","fromNode":"aad5d31f0f41aecb","fromSide":"right","toNode":"7ddb51f340b8be2c","toSide":"left"},
@@ -127,6 +132,11 @@
 		{"id":"0f1a4a46645f086d","fromNode":"2315e805c1e53d91","fromSide":"right","toNode":"26ef825dc02041d6","toSide":"left"},
 		{"id":"9e4c392b74127f4b","fromNode":"2315e805c1e53d91","fromSide":"right","toNode":"cfaf8b747ac03845","toSide":"left"},
 		{"id":"c682878a468196c2","fromNode":"d786877728553b71","fromSide":"right","toNode":"0c49f358bc120769","toSide":"left"},
-		{"id":"552cdb2de6c46555","fromNode":"d786877728553b71","fromSide":"right","toNode":"38f9abcc878048ab","toSide":"left"}
+		{"id":"552cdb2de6c46555","fromNode":"d786877728553b71","fromSide":"right","toNode":"38f9abcc878048ab","toSide":"left"},
+		{"id":"ea44ba23f66591ab","fromNode":"d786877728553b71","fromSide":"right","toNode":"06311376f8cf1feb","toSide":"left"},
+		{"id":"6486674903df39d5","fromNode":"06311376f8cf1feb","fromSide":"right","toNode":"3868cd248078fdc9","toSide":"left"},
+		{"id":"af6c46f3c99ecb50","fromNode":"06311376f8cf1feb","fromSide":"right","toNode":"483acb34bc9e1af8","toSide":"left"},
+		{"id":"4be939aa57224410","fromNode":"483acb34bc9e1af8","fromSide":"right","toNode":"293b44daa49ad5bd","toSide":"left"},
+		{"id":"83f42162a9ef0fb8","fromNode":"3868cd248078fdc9","fromSide":"right","toNode":"06de0f837d66e239","toSide":"left"}
 	]
 }
