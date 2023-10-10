@@ -7,6 +7,7 @@ This is a collection of some of mine mindmaps in Obsidian. No I did not design a
 * SSTI
 * File transfer techniques
 * Pivot / Tunnels
+* Wireless network pentesting
 
 
 -----
@@ -74,3 +75,10 @@ As mentioned earlier, there are many ways to transfer files from one machine to 
 
 The mindmap is created within Obsedian, so you could import the file within Obsedian without any problem. The file could be downloaded from [here](https://raw.githubusercontent.com/eMVee-NL/MindMap/main/File-Transfer/Mindmap%20transfer%20files%20to%20ATTACKER.canvas)
 ![Mindmap File transfer from victom to attacker](https://github.com/eMVee-NL/MindMap/blob/main/image/Mindmap%20transfer%20files%20to%20ATTACKER.png)
+
+
+-----
+## Wireless network pentesting
+This mindmap will be shared in the near future. This mindmap is in progress and is reviewed by some awesome people.
+When it is shared it will be here in 2 formats. The first is as a PNG image and the second is the Obsidian canvas so commands could be copied easily.
+Be patience, it will be shared!
