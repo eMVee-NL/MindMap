@@ -82,7 +82,7 @@ The mindmap is created within Obsedian, so you could import the file within Obse
 While preparing for the OSWP exam I had to build my own WiFi lab until I noticed [WiFiChallenge Lab](https://wifichallengelab.com/) from r4ulcl. Based on the virtual environment he created I tested several attack methods and techniques.
 I have tried to document the whole thing into a mind map so that it becomes clear which attack paths and techniques can be used. The commands are easy to use and require a little tweaking here and there to use them. I would like to thank r4ulcl, BloodyPhoenix and Nick for reviewing the mind map.
 
-It is possible that I will add extensions in the future, such as attacks with Kistmet/WiFite/Fluxion, etc.
+It is possible that I will add additional tools and techniques in the future, such as attacks with Kistmet/WiFite/Fluxion, etc.
 The mindmap is created for Obsidian, se download the file [here](https://raw.githubusercontent.com/eMVee-NL/MindMap/main/WiFi/WiFi%20Mindmap.canvas)
 
 
