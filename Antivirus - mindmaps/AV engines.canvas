@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"a1293134ca2b3e2c","x":-196,"y":-237,"width":176,"height":60,"type":"text","text":"Static engine"},
+		{"id":"5ce2d9ea608a9ee0","x":-196,"y":-140,"width":176,"height":71,"type":"text","text":"Dynamic engine\n     +\nSandbox engine"},
+		{"id":"170f647b4fc26a5c","type":"text","text":"Heuristic engine","x":-196,"y":-30,"width":176,"height":60},
+		{"id":"a8d46b225002e4ba","type":"text","text":"Unpacking engine","x":-196,"y":60,"width":176,"height":60},
+		{"id":"5ed277dfb6c7c5cb","x":-520,"y":-69,"width":191,"height":60,"type":"text","text":"AV - Antivirus engines"}
+	],
+	"edges":[
+		{"id":"663dff70e22d2cb1","fromNode":"5ed277dfb6c7c5cb","fromSide":"right","toNode":"a1293134ca2b3e2c","toSide":"left"},
+		{"id":"28e37d2f2e8f550a","fromNode":"5ed277dfb6c7c5cb","fromSide":"right","toNode":"5ce2d9ea608a9ee0","toSide":"left"},
+		{"id":"2bcdc2840b2093d4","fromNode":"5ed277dfb6c7c5cb","fromSide":"right","toNode":"170f647b4fc26a5c","toSide":"left"},
+		{"id":"0969c89fb61a8783","fromNode":"5ed277dfb6c7c5cb","fromSide":"right","toNode":"a8d46b225002e4ba","toSide":"left"}
+	]
+}

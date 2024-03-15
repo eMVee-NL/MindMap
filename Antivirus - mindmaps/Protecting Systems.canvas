@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"21bfde9288b06572","x":-114,"y":-222,"width":108,"height":60,"type":"text","text":"Firewall"},
+		{"id":"ef717ecbce8bef16","x":-280,"y":-222,"width":88,"height":60,"type":"text","text":"EDR"},
+		{"id":"af3e6b82126725a9","x":-480,"y":-222,"width":142,"height":60,"type":"text","text":"AV - Antivirus"},
+		{"id":"354cdf38d4a4a3fb","type":"text","text":"IPS","x":113,"y":-50,"width":82,"height":60},
+		{"id":"b4f32a2fcccfa2db","x":14,"y":-50,"width":84,"height":60,"type":"text","text":"IDS"},
+		{"id":"cac1de8240cb68c4","x":40,"y":-222,"width":114,"height":60,"type":"text","text":"IDS / IPS"},
+		{"id":"103d2abdb860b881","x":-146,"y":-480,"width":173,"height":60,"type":"text","text":"Protecting Systems"},
+		{"id":"f8d956c77911dc0f","x":220,"y":-222,"width":87,"height":60,"type":"text","text":"DLP"}
+	],
+	"edges":[
+		{"id":"4ad06a4e835454ef","fromNode":"103d2abdb860b881","fromSide":"bottom","toNode":"af3e6b82126725a9","toSide":"top"},
+		{"id":"ccc45076b91196a3","fromNode":"103d2abdb860b881","fromSide":"bottom","toNode":"ef717ecbce8bef16","toSide":"top"},
+		{"id":"765da05c21c9cfb9","fromNode":"103d2abdb860b881","fromSide":"bottom","toNode":"21bfde9288b06572","toSide":"top"},
+		{"id":"edba7d3e116c25ec","fromNode":"103d2abdb860b881","fromSide":"bottom","toNode":"cac1de8240cb68c4","toSide":"top"},
+		{"id":"bcdff572bbb8cffa","fromNode":"103d2abdb860b881","fromSide":"bottom","toNode":"f8d956c77911dc0f","toSide":"top"},
+		{"id":"f646eab560f0a0f5","fromNode":"cac1de8240cb68c4","fromSide":"bottom","toNode":"b4f32a2fcccfa2db","toSide":"top"},
+		{"id":"07b3d0b48ac4fee7","fromNode":"cac1de8240cb68c4","fromSide":"bottom","toNode":"354cdf38d4a4a3fb","toSide":"top"}
+	]
+}
