@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"bd033ae6f7a040c2","type":"group","x":-60,"y":-220,"width":500,"height":280,"color":"2","label":"Non-staged"},
+		{"id":"2ad1dcb0b5a9ecd0","type":"group","x":-580,"y":-220,"width":500,"height":280,"color":"4","label":"Staged"},
+		{"id":"5890973151dc960c","type":"text","text":"- Sends payload in stages\n- Can be less stable\n- Example\n```\nwindows/meterpreter/reverse_tcp\n```","x":-560,"y":-200,"width":460,"height":210},
+		{"id":"89b13a0232de4f35","type":"text","text":"- Sends exploit shellcode all at once\n- Larger in size and won't always work\n- Example\n```\nwindows/meterpreter_reverse_tcp\n```","x":-40,"y":-200,"width":460,"height":210},
+		{"id":"143cf207c3857837","x":-588,"y":140,"width":516,"height":60,"type":"text","text":"Netcat does not know how to handle staged payloads!"}
+	],
+	"edges":[
+		{"id":"6f8f4dc7ec71d5bd","fromNode":"143cf207c3857837","fromSide":"top","toNode":"2ad1dcb0b5a9ecd0","toSide":"bottom"}
+	]
+}

