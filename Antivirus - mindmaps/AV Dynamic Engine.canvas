@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"8adc61355aef07f7","type":"group","x":-482,"y":-140,"width":762,"height":300,"label":"AV Dynamic Engine"},
+		{"id":"0f60105a443f1c07","type":"group","x":-240,"y":-43,"width":257,"height":179,"label":"Dynamic Engine"},
+		{"id":"91a8ce4c0dd12905","type":"group","x":60,"y":-43,"width":180,"height":179,"label":"Validation"},
+		{"id":"970ea2dd23f66df3","type":"group","x":-434,"y":-43,"width":157,"height":179,"label":"File Formats"},
+		{"id":"17c90ab69bb569f0","type":"text","text":".EXE\n.DLL\n.DOCX\n.PDF\nMore files","x":-417,"y":-24,"width":126,"height":132},
+		{"id":"b5f857ae5aec976b","type":"text","text":"- API Monitoring\n- Sandboxing","x":-223,"y":9,"width":217,"height":66},
+		{"id":"612def608139c6fb","type":"text","text":"Malicious or Benign","x":80,"y":0,"width":140,"height":84}
+	],
+	"edges":[
+		{"id":"41ef3c078c3ab2e0","fromNode":"17c90ab69bb569f0","fromSide":"right","toNode":"b5f857ae5aec976b","toSide":"left"},
+		{"id":"519e399197667d40","fromNode":"b5f857ae5aec976b","fromSide":"right","toNode":"612def608139c6fb","toSide":"left"}
+	]
+}

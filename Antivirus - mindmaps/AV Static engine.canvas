@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"300c8a6cddcdf696","type":"group","x":-485,"y":-160,"width":965,"height":280,"label":"AV Static Engine"},
+		{"id":"f07ab2f1061a03d3","type":"group","x":-200,"y":-99,"width":180,"height":179,"label":"Static Engine"},
+		{"id":"970377442332d9d6","type":"group","x":240,"y":-99,"width":180,"height":179,"label":"Validation"},
+		{"id":"fba190ff6948ce28","type":"group","x":-437,"y":-99,"width":157,"height":179,"label":"File Formats"},
+		{"id":"bcd20d2f629607b4","type":"text","text":".EXE\n.DLL\n.DOCX\n.PDF\nMore files","x":-420,"y":-80,"width":126,"height":132},
+		{"id":"82487f8ee58d06c6","type":"text","text":"Comparing with a static signature file","x":-180,"y":-80,"width":140,"height":132},
+		{"id":"08dffaaed00ebbfb","type":"text","text":"Static signature database file","x":20,"y":-56,"width":175,"height":84},
+		{"id":"aebd3ca3c7c0ff96","type":"text","text":"Malicious or Benign","x":260,"y":-56,"width":140,"height":84}
+	],
+	"edges":[
+		{"id":"8217a15a1a40da6f","fromNode":"bcd20d2f629607b4","fromSide":"right","toNode":"82487f8ee58d06c6","toSide":"left"},
+		{"id":"54707e3b7e506815","fromNode":"82487f8ee58d06c6","fromSide":"right","toNode":"08dffaaed00ebbfb","toSide":"left"},
+		{"id":"9baf0baa30b57162","fromNode":"08dffaaed00ebbfb","fromSide":"right","toNode":"aebd3ca3c7c0ff96","toSide":"left"}
+	]
+}

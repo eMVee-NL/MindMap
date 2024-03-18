@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"4e8d1b61caeff437","type":"group","x":-381,"y":-150,"width":762,"height":300,"label":"AV Heuristic Engine"},
+		{"id":"46405b3966015d4d","type":"group","x":-139,"y":-53,"width":257,"height":179,"label":"Heuristic Engine"},
+		{"id":"df2e5ec5c2aeaa9c","type":"group","x":161,"y":-53,"width":180,"height":179,"label":"Validation"},
+		{"id":"eafe6664947a5a75","type":"group","x":-333,"y":-53,"width":157,"height":179,"label":"File Formats"},
+		{"id":"46d9dde288fd927d","type":"text","text":".EXE\n.DLL\n.DOCX\n.PDF\nMore files","x":-316,"y":-34,"width":126,"height":132},
+		{"id":"ca29c73ed1f12403","type":"text","text":"Pre-defined behavioral rules","x":-122,"y":-1,"width":217,"height":66},
+		{"id":"66b2f02042875905","type":"text","text":"Malicious or Benign","x":181,"y":-10,"width":140,"height":84}
+	],
+	"edges":[
+		{"id":"43689971fe0c22bb","fromNode":"46d9dde288fd927d","fromSide":"right","toNode":"ca29c73ed1f12403","toSide":"left"},
+		{"id":"c17b2287eeb19cfe","fromNode":"ca29c73ed1f12403","fromSide":"right","toNode":"66b2f02042875905","toSide":"left"}
+	]
+}
