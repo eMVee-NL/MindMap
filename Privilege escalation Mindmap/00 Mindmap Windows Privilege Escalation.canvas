@@ -8,7 +8,7 @@
 		{"type":"text","text":"Credentials from local database","id":"f84fcaa02799a4f6","x":351,"y":-455,"width":489,"height":60},
 		{"type":"text","text":"Credentials from Powershell History","id":"9c24df2395abe41a","x":351,"y":-375,"width":489,"height":60},
 		{"type":"text","text":"Credentials from cmdkey","id":"eb42d5086fc4f9a6","x":351,"y":-295,"width":489,"height":56},
-		{"type":"text","text":"Credential access","id":"7ddb51f340b8be2c","x":-113,"y":-355,"width":250,"height":60},
+		{"type":"text","text":"Credential access\n[01 EoP - Looting for passwords](01%20EoP%20-%20Looting%20for%20passwords.md)","id":"7ddb51f340b8be2c","x":-113,"y":-355,"width":250,"height":60},
 		{"type":"text","text":"Credential from log files","id":"a9663ffe70ee368b","x":351,"y":-59,"width":489,"height":60},
 		{"type":"text","text":"user groups","id":"c6220802d7426bdc","x":351,"y":21,"width":489,"height":60},
 		{"type":"text","text":"Services running on localhost","id":"2c8455b8ffb76174","x":307,"y":187,"width":250,"height":71},
@@ -44,7 +44,6 @@
 		{"type":"text","text":"SAM Hive","id":"af9d8f06265c79f8","x":687,"y":1919,"width":250,"height":60},
 		{"type":"text","text":"SYSTEM Hive","id":"016bbef731befcb5","x":687,"y":2020,"width":250,"height":60},
 		{"type":"text","text":"Sensitive Files Readable","id":"2cc238db686f9323","x":346,"y":1966,"width":250,"height":60},
-		{"type":"text","text":"AlwaysInstalledElevated Set in Registery","id":"cc64d498067a74e0","x":346,"y":1649,"width":250,"height":60},
 		{"type":"text","text":"Scheduled tasks","id":"2a089154244f994f","x":346,"y":1785,"width":250,"height":60},
 		{"type":"text","text":"SeAssignPrimaryToken","id":"15141501165d1bb3","x":1463,"y":817,"width":320,"height":60},
 		{"type":"text","text":"SeBackupPrivilege","id":"31ec6a691f31dda2","x":1463,"y":1289,"width":250,"height":60},
@@ -56,8 +55,6 @@
 		{"type":"text","text":"Services[20 EoP - Leveraging Windows Services](20%20EoP%20-%20Leveraging%20Windows%20Services.md)","id":"2315e805c1e53d91","x":346,"y":1479,"width":250,"height":60},
 		{"type":"text","text":"```cmd\nwhoami /priv\n```","id":"d786877728553b71","x":1020,"y":1147,"width":250,"height":60},
 		{"id":"06de0f837d66e239","type":"text","text":"1. Launch PowerShell/ISE with the SeRestore privilege present.  \n2. Enable the privilege with [Enable-SeRestorePrivilege](https://github.com/gtworek/PSBits/blob/master/Misc/EnableSeRestorePrivilege.ps1)).  \n3. Rename utilman.exe to utilman.old  \n4. Rename cmd.exe to utilman.exe  \n5. Lock the console and press Win+U","x":2080,"y":1464,"width":420,"height":256},
-		{"type":"text","text":"SeDebug","id":"0c49f358bc120769","x":1461,"y":1876,"width":250,"height":60},
-		{"type":"text","text":"SeLoadDriver","id":"38f9abcc878048ab","x":1461,"y":1956,"width":250,"height":60},
 		{"id":"483acb34bc9e1af8","type":"text","text":"non GUI","x":1783,"y":1820,"width":250,"height":60},
 		{"id":"293b44daa49ad5bd","type":"text","text":"https://github.com/xct/SeRestoreAbuse","x":2078,"y":1820,"width":422,"height":60},
 		{"id":"3868cd248078fdc9","type":"text","text":"GUI","x":1783,"y":1562,"width":250,"height":60},
@@ -68,7 +65,14 @@
 		{"type":"text","text":"SweetPotato","id":"f7c579ceb1b6b298","x":2680,"y":877,"width":250,"height":60},
 		{"type":"text","text":"RemotePotato0","id":"bbcae9a8b0fa2404","x":2680,"y":957,"width":250,"height":60},
 		{"type":"text","text":"GodPotato","id":"a9dd9a7b5c230404","x":2680,"y":1037,"width":250,"height":60},
-		{"id":"138bdce8820e1b6c","x":2680,"y":1129,"width":250,"height":60,"type":"text","text":"Coerced Potato"}
+		{"id":"138bdce8820e1b6c","type":"text","text":"Coerced Potato","x":2680,"y":1129,"width":250,"height":60},
+		{"id":"a456bf627d11a26a","type":"text","text":"[13 EoP - Impersonation Privileges](13%20EoP%20-%20Impersonation%20Privileges.md) - Token Impersonation","x":687,"y":1147,"width":257,"height":60},
+		{"id":"2a564c9fffccf4e5","type":"text","text":"SeCreateToken","x":1463,"y":1990,"width":250,"height":60},
+		{"type":"text","text":"SeDebug","id":"0c49f358bc120769","x":1463,"y":2086,"width":250,"height":60},
+		{"type":"text","text":"SeLoadDriver","id":"38f9abcc878048ab","x":1463,"y":2166,"width":250,"height":60},
+		{"id":"811f92004d330326","type":"text","text":"SeTakeOwnership","x":1463,"y":2260,"width":250,"height":60},
+		{"id":"c7196124c9848781","type":"text","text":"[16 EoP - Registry Escalation - AlwaysInstallElevated](16%20EoP%20-%20Registry%20Escalation%20-%20AlwaysInstallElevated.md) set in Windows Registry","x":346,"y":1650,"width":250,"height":85},
+		{"id":"85a85527aa1994e7","x":2680,"y":1207,"width":250,"height":60,"type":"text","text":"SigmaPotato"}
 	],
 	"edges":[
 		{"id":"6b14fbe0816370ea","fromNode":"aad5d31f0f41aecb","fromSide":"right","toNode":"7ddb51f340b8be2c","toSide":"left"},
@@ -89,7 +93,7 @@
 		{"id":"205d7810d89be3ac","fromNode":"aad5d31f0f41aecb","fromSide":"right","toNode":"6f27ac9995f09067","toSide":"left"},
 		{"id":"c211d9808d944941","fromNode":"aad5d31f0f41aecb","fromSide":"right","toNode":"38feeca0e4fd29de","toSide":"left"},
 		{"id":"2be88759d08efb0e","fromNode":"38feeca0e4fd29de","fromSide":"right","toNode":"4956b7ac4008d08a","toSide":"left"},
-		{"id":"d3596bb6b04b54d4","fromNode":"38feeca0e4fd29de","fromSide":"right","toNode":"cc64d498067a74e0","toSide":"left"},
+		{"id":"d3596bb6b04b54d4","fromNode":"38feeca0e4fd29de","fromSide":"right","toNode":"c7196124c9848781","toSide":"left"},
 		{"id":"d3e741c46de5ea44","fromNode":"38feeca0e4fd29de","fromSide":"right","toNode":"2a089154244f994f","toSide":"left"},
 		{"id":"86472d13d29fcbe1","fromNode":"38feeca0e4fd29de","fromSide":"right","toNode":"2cc238db686f9323","toSide":"left"},
 		{"id":"7571aafd7c74828f","fromNode":"2a089154244f994f","fromSide":"right","toNode":"d5272c59e5be3225","toSide":"left"},
@@ -99,7 +103,7 @@
 		{"id":"638f12ffd1b9e375","fromNode":"4956b7ac4008d08a","fromSide":"right","toNode":"716e0d265b76cd47","toSide":"left"},
 		{"id":"07aa9a15ce120f54","fromNode":"fe536c202155ae18","fromSide":"right","toNode":"5bb0086cbe514336","toSide":"left"},
 		{"id":"aa459817bc6ec933","fromNode":"fe536c202155ae18","fromSide":"right","toNode":"af123cfcccfbbd8f","toSide":"left"},
-		{"id":"049e2f527c353f66","fromNode":"4956b7ac4008d08a","fromSide":"right","toNode":"d786877728553b71","toSide":"left"},
+		{"id":"049e2f527c353f66","fromNode":"4956b7ac4008d08a","fromSide":"right","toNode":"a456bf627d11a26a","toSide":"left"},
 		{"id":"d4c08fbccc6e86b6","fromNode":"d786877728553b71","fromSide":"right","toNode":"95e2c9a8eebb0e50","toSide":"left"},
 		{"id":"7d13eb9ef5cae18a","fromNode":"716e0d265b76cd47","fromSide":"right","toNode":"fe536c202155ae18","toSide":"left"},
 		{"id":"b881e92adde5c5ce","fromNode":"716e0d265b76cd47","fromSide":"right","toNode":"0bc6177fcd7c7605","toSide":"left"},
@@ -139,6 +143,10 @@
 		{"id":"af6c46f3c99ecb50","fromNode":"06311376f8cf1feb","fromSide":"right","toNode":"483acb34bc9e1af8","toSide":"left"},
 		{"id":"4be939aa57224410","fromNode":"483acb34bc9e1af8","fromSide":"right","toNode":"293b44daa49ad5bd","toSide":"left"},
 		{"id":"83f42162a9ef0fb8","fromNode":"3868cd248078fdc9","fromSide":"right","toNode":"06de0f837d66e239","toSide":"left"},
-		{"id":"f6869fa0dd985489","fromNode":"72a7b049a6c95e2d","fromSide":"right","toNode":"138bdce8820e1b6c","toSide":"left"}
+		{"id":"f6869fa0dd985489","fromNode":"72a7b049a6c95e2d","fromSide":"right","toNode":"138bdce8820e1b6c","toSide":"left"},
+		{"id":"3113c4b9f21b08cc","fromNode":"a456bf627d11a26a","fromSide":"right","toNode":"d786877728553b71","toSide":"left"},
+		{"id":"443220948f592125","fromNode":"d786877728553b71","fromSide":"right","toNode":"2a564c9fffccf4e5","toSide":"left"},
+		{"id":"06b6adb321a3e025","fromNode":"d786877728553b71","fromSide":"right","toNode":"811f92004d330326","toSide":"left"},
+		{"id":"87f57bbc2090049c","fromNode":"72a7b049a6c95e2d","fromSide":"right","toNode":"85a85527aa1994e7","toSide":"left"}
 	]
 }
